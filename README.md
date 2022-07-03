@@ -55,4 +55,4 @@ The website for the restaurant list. You can browse restaurants list, view detai
 
 ## Screenshot
 
-![index image about my restaurant list](./public/image/reataurantlist_2-7-2022_222037_localhost.jpeg)
+![index image about my restaurant list](./public/image/restaurantlist_2_0_3-7-2022_185013_localhost.jpeg)
