@@ -35,6 +35,7 @@ app.use(methodOverride("_method"))
 app.get("/", (req, res) => {
   Restaurant.find({})
     .lean()
+    .sort({ _id: 'desc' })
     .then(restaurantsData => res.render("index", { restaurantsData }))
     .catch(err => console.log(err))
 })
